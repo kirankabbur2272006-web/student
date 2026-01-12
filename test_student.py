@@ -27,6 +27,7 @@ def test_grade_f():
     assert calculate_grade(30) == "F"
 
 
+
 @pytest.mark.parametrize("avg, expected", [
     (90, "S"),
     (89, "A"),
