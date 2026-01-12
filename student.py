@@ -7,6 +7,7 @@ def calculate_grade(avg):
         return "B"
     elif 50 <= avg <= 64:
         return "C"
+        
     elif 40 <= avg <= 49:
         return "D"
     else:
